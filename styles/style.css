@@ -89,3 +89,14 @@ footer img{
     height:32px;
     padding: 14px;
 }
+
+/* Media Quari  */
+/* Mobile divice */
+@media only screen and (max-width:688px){
+    .gird-players{
+        background-color: red;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
