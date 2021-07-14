@@ -1,10 +1,12 @@
 body{
+    
     margin: 0;
 }
 
 /* -------
 -------Top banner--------- */
 .top-banner{
+    /* width: 1200px; */
     height: 550px;
     background-color:#2D25A0;
     display: flex;
@@ -129,14 +131,20 @@ footer img{
     padding: 14px;
 }
 
-/* Media Quari  */
-/* Mobile divice */
-@media only screen and (max-width:688px){
-    .gird-players{
-        width: 100%;
-        background-color: red;
-        display: grid;
-        grid-template-columns:(repeat(1,1fr))
+@media(max-width: 1200px) {
+    #container{
+        flex-direction: column;
+        height: 800px;
+    }
+    #intro{
+        height: 300px;
+    }
+    #bannerImage{
+        margin-top: 30%;
+        margin-left: 15%;
+        height: 300px;
     }
 }
+
+
 
