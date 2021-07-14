@@ -70,7 +70,43 @@ body{
     height: 256px;
     width:100%;
 }
-
+/* -------
+-------last banner--------- */
+.last-banner{
+    height: 250px;
+    background-color:#2D25A0;
+    display: flex;
+    padding: 50px 156px;
+}
+.last-banner div{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#last-intro{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.last-banner img{
+    height: 350px;
+    width: 800px;
+}
+.last-banner h1{
+    font-size: 50px;
+    color: white;
+}
+.button{
+    text-decoration: none;
+    color: rgb(225, 255, 255);
+    font-weight: 1500;
+    font-size: 20px;
+    background-color: #E02c6D;
+    padding: 10px 40px;
+    
+}
 
 /*----------------
 -------- Footer section -------------------- */
